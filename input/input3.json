@@ -1,0 +1,40 @@
+{
+  "devices": [
+
+    {
+      "id": "7D9DC84AD110500D284B33C82FE6E85E",
+      "name": "Кондиционер",
+      "power": 850,
+      "duration": 11,
+      "mode": "night"
+    }
+  ],
+  "rates": [
+    {
+      "from": 7,
+      "to": 10,
+      "value": 6
+    },
+    {
+      "from": 10,
+      "to": 17,
+      "value": 1
+    },
+    {
+      "from": 17,
+      "to": 21,
+      "value": 6
+    },
+    {
+      "from": 21,
+      "to": 23,
+      "value": 5
+    },
+    {
+      "from": 23,
+      "to": 7,
+      "value": 2
+    }
+  ],
+  "maxPower": 2099
+}

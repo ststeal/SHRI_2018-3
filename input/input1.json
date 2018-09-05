@@ -1,0 +1,71 @@
+{
+  "devices": [
+    {
+      "id": "washup",
+      "name": "Посудомоечная машина",
+      "power": 950,
+      "duration": 3,
+      "mode": "night"
+    },
+    {
+      "id": "duhovka",
+      "name": "Духовка",
+      "power": 1500,
+      "duration": 2,
+      "mode": "day"
+    },
+    {
+      "id": "refrejerator",
+      "name": "Холодильник",
+      "power": 50,
+      "duration": 23
+    },
+    {
+      "id": "termostat",
+      "name": "Термостат",
+      "power": 50,
+      "duration": 22
+    },
+    {
+      "id": "kondei",
+      "name": "Кондиционер",
+      "power": 850,
+      "duration": 1
+    },
+    {
+      "id": "paialnik",
+      "name": "Паяльник",
+      "power": 1500,
+      "duration": 7,
+      "mode": "day"
+    }
+  ],
+  "rates": [
+    {
+      "from": 7,
+      "to": 10,
+      "value": 6.46
+    },
+    {
+      "from": 10,
+      "to": 17,
+      "value": 5.38
+    },
+    {
+      "from": 17,
+      "to": 21,
+      "value": 6.46
+    },
+    {
+      "from": 21,
+      "to": 23,
+      "value": 5.38
+    },
+    {
+      "from": 23,
+      "to": 7,
+      "value": 1.79
+    }
+  ],
+  "maxPower": 2099
+}
